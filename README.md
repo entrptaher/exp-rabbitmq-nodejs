@@ -25,3 +25,9 @@ node consumer.js
 /usr/bin/watch -n1 node producer.js
 ```
 
+Example of retrying a failed task (consumer MUST `nack` the message):
+```bash
+node deadletter.js
+```
+
+Note: RabbitMQ web interface is available at http://localhost:15672/#/queues

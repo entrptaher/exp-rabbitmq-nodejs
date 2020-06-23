@@ -1,0 +1,12 @@
+{
+  "name": "exp-rabbitmq-nodejs",
+  "version": "1.0.0",
+  "main": "producer.js",
+  "repository": "git@github.com:Vaviloff/exp-rabbitmq-nodejs.git",
+  "author": "Vaviloff <github@vaviloff.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "dotenv": "^8.2.0"
+  }
+}
